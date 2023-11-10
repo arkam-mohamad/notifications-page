@@ -1,1 +1,112 @@
+*{
+  margin: 0;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+body{
+  background-color: hsl(210, 60%, 98%);
+}
+main{
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+  max-width: 800px;
+  margin: 100px auto;
+  box-shadow: 5px 5px 5px hsl(205, 33%, 90%);
+  border-radius: 10px;
+}
+.heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h1{
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+}
+h1 span{
+  background-color: hsl(219, 85%, 26%);
+  padding: 0 10px;
+  border-radius: 5px;
+  font-size: 28px;
+  color: white;
+}
+p{
+  color: hsl(219, 12%, 42%);
+}
+.heading p:hover{
+  cursor: pointer;
+  color: hsl(219, 85%, 26%);
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container{
+  display: flex;
+  align-items: start;
+  gap: 15px;
+}
+.light-blue{
+  background-color: hsl(210, 60%, 98%);
+}
+.container img{
+  width: 50px;
+}
+.content p{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.name{
+  font-weight: bold;
+  color: hsl(224, 21%, 14%);
+}
+.second{
+  font-weight: bold;
+}
+.name:hover, .second:hover{
+  cursor: pointer;
+  color: hsl(219, 85%, 26%);
+}
+.chess{
+  color: hsl(219, 85%, 26%);
+}
+.round{
+  font-size: 10px;
+  border-radius: 50%;
+  color: hsl(1, 90%, 64%);
+}
+small{
+  color: hsl(219, 14%, 63%);
+}
+.sub{
+  padding: 20px;
+  border: 1px solid hsl(205, 33%, 90%);
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.sub:hover{
+  cursor: pointer;
+  background-color: hsl(211, 68%, 94%);
+}
+.kimberly{
+  justify-content: space-between;
+}
+.kimberly > div{
+  display: flex;
+  gap: 20px;
+}
+.nathan p{
+  display: block;
+}
 
+
+@media screen and (max-width:720px) {
+  .content p{
+    display: block;
+  }
+}
